@@ -1,0 +1,17 @@
+@import url(../vendor/normalize.css);
+/*----------Сбросы для списков ul li */
+@import url(../blocks/list/list.css);
+/*------------Стили для всех ссылок*/
+@import url(../blocks/link/link.css);
+
+
+/* ---------------------------------------------------------------------BODY */
+@import url(../blocks/page/page.css);
+
+/* ----------------------------------------------------------ШАПКА САЙТА, БЛОК HEADER */
+@import url(../blocks/header/header.css);
+/*---------------------header --> logo */
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/logo/__place/logo_place_header.css);
+
