@@ -1,0 +1,16 @@
+.header__lang-link{
+  text-decoration: none;
+  padding: 0;
+  margin: 0 15px 0 0;
+  color: white;
+}
+.header__lang-link:last-child{
+  margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+  .header__lang-link{
+
+  }
+}
+
