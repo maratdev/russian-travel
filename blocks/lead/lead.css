@@ -2,6 +2,5 @@
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
-  max-height: min(1005px, max(calc(100vw + 64px), 464px));
 
 }

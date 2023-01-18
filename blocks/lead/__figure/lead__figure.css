@@ -2,18 +2,22 @@
   box-sizing: border-box;
   margin: 64px auto 0;
   max-width: 984px;
-  min-height: 554px;
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .lead__figure{
-    margin: 0;
-    padding: 58px 0 0 48px;
+    margin: 56px 48px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
   .lead__figure{
-    padding: 54px 0 0;
+    margin: 54px 0 0;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .lead__figure{
+    margin: 40px 0 0;
   }
 }
