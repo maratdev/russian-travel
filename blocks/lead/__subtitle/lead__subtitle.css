@@ -1,0 +1,5 @@
+.lead__subtitle{
+  font-size: min(1.875rem, max(3vw, 1rem));
+  line-height: min(2.25rem, max(3vw, 1.25rem));
+  margin: 35px 0 0;
+}

@@ -7,20 +7,32 @@
 @import url(../blocks/link/link.css);
 
 
-/* ---------------------------------------------------------------------BODY */
+/* --------------------------------------------------------------------------BODY */
 @import url(../blocks/page/page.css);
 
-/* ----------------------------------------------------------ШАПКА САЙТА, БЛОК HEADER */
+/* ------------------------------------------------ШАПКА САЙТА, БЛОК HEADER */
 @import url(../blocks/header/header.css);
 /*---------------------header --> logo */
 @import url(../blocks/header/__logo/header__logo.css);
-/*---------------------header --> div*/
+/*---------------------header --> div */
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 /*---------------------header --> div --> a */
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+/*---------------------header --> div --> a.active */
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
+/* -------------------------------------------------------------СЕКЦИЯ LEAD */
+@import url(../blocks/lead/lead.css);
 
+/*---------------------lead --> h1 */
+@import url(../blocks/lead/__title/lead__title.css);
+/*---------------------lead --> p */
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+/*---------------------lead --> figure */
+@import url(../blocks/lead/__figure/lead__figure.css);
+/*---------------------lead --> figure --> img*/
+@import url(../blocks/lead/__photo/lead__photo.css);
+/*---------------------lead --> figure --> figcaption*/
+@import url(../blocks/lead/__caption/lead__caption.css);
 
-@import url(../blocks/logo/__place/logo_place_header.css);
-
+/* -------------------------------------------------------------СЕКЦИЯ INTRO */
