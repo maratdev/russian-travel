@@ -1,14 +1,21 @@
 .lead__title{
-  margin:0;
-  padding-top: 26px;
+  box-sizing: border-box;
+  margin: 55px 0 0;
   font-weight: 800;
   font-size: min(6rem, max(10vw, 2.5rem));
   line-height: min(6.25rem, max(10vw, 2.75rem));
 }
 
-
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1024px) {
   .lead__title{
-    padding-top: 20px;
+    margin: 48px 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title{
+    font-size: min(6rem, max(15vw, 2.5rem));
+    line-height: min(6.25rem, max(15vw, 2.75rem));
+
   }
 }

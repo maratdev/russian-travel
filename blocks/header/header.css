@@ -6,7 +6,13 @@
   width: 100%;
   max-width: 1184px;
   height: 52px;
-  margin: 28px auto;
+  margin: 28px auto 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .header{
+    padding: 0 calc(10vh - 40px);
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -14,6 +20,13 @@
     padding: 0 calc(10vh - 40px);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .header{
+    padding: 0 calc(10vh - 60px);
+  }
+}
+
 @media screen and (max-width: 375px) {
   .header{
     margin: 16px auto;

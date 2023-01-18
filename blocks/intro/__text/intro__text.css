@@ -1,0 +1,6 @@
+.intro__text{
+  max-width: min(690px, max(100vw, 320px));
+  line-height: 163%;
+  margin: 40px 0 0;
+}
+
