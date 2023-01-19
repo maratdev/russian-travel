@@ -1,0 +1,18 @@
+.places{
+  box-sizing: border-box;
+  max-width: 1014px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .places{
+    margin-top: 96px;
+    padding: 0 30px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .places{
+    margin-top: 90px;
+  }
+}

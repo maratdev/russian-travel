@@ -1,0 +1,12 @@
+.place__text{
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .place__text{
+    padding: 5px 17px 0;
+  }
+}
+
