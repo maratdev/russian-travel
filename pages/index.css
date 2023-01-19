@@ -9,7 +9,6 @@
 
 /* --------------------------------------------------------------------------BODY */
 @import url(../blocks/page/page.css);
-
 /* ------------------------------------------------ШАПКА САЙТА, БЛОК HEADER */
 @import url(../blocks/header/header.css);
 /*---------------------header --> logo */
@@ -23,7 +22,6 @@
 
 /* -------------------------------------------------------------СЕКЦИЯ LEAD */
 @import url(../blocks/lead/lead.css);
-
 /*---------------------lead --> h1 */
 @import url(../blocks/lead/__title/lead__title.css);
 /*---------------------lead --> p */
@@ -37,8 +35,25 @@
 
 /* -------------------------------------------------------------СЕКЦИЯ INTRO */
 @import url(../blocks/intro/intro.css);
+/*---------------------intro --> h1 */
 @import url(../blocks/intro/__title/intro__title.css);
+/*---------------------intro --> p */
 @import url(../blocks/intro/__text/intro__text.css);
+/*---------------------intro --> ul*/
 @import url(../blocks/intro/__list/intro__list.css);
+/*---------------------intro --> ul --> li --> p*/
 @import url(../blocks/intro/__fact/intro__fact.css);
+/*---------------------intro --> ul --> li --> p -->span*/
 @import url(../blocks/intro/__span-accent/intro__span-accent.css);
+
+
+/* -------------------------------------------------------------PHOTO-GRID */
+@import url(../blocks/photo-grid/photo-grid.css);
+/*---------------------intro --> ul */
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
+/*---------------------intro --> ul  --> li*/
+@import url(../blocks/photo-grid/__items/photo-grid__items.css);
+/*---------------------intro --> ul  --> li --> img */
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+
