@@ -3,14 +3,16 @@
   font-size: 4.5rem;
   line-height: 4.75rem;
   font-weight: 800;
+  white-space: pre;
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 424px) and (max-width: 768px) {
   .place__title{
     margin: 0;
     font-size: 2.625rem;
     line-height: 2.875rem;
     font-weight: 800;
+    white-space: normal;
   }
 }
 
@@ -19,5 +21,6 @@
     font-size: 2rem;
     line-height: 2.188rem;
     padding-left: 17px;
+    white-space: normal;
   }
 }

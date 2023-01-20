@@ -76,6 +76,8 @@
 
 /* -------------------------------------------------------------COVER */
 @import url(../blocks/cover/cover.css);
+/*---------------------cover --> a */
+@import url(../blocks/cover/__link/cover__link.css);
 /*---------------------cover --> h2 */
 @import url(../blocks/cover/__title/cover__title.css);
 /*---------------------cover --> p */
