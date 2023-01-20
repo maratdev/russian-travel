@@ -1,5 +1,6 @@
-.photo-grid__item{
-  aspect-ratio: 1 / 1;
+.cover__bg-img{
   max-width: 100%;
   object-fit: cover;
 }
+
+

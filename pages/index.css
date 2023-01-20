@@ -55,14 +55,27 @@
 /*---------------------intro --> ul  --> li --> img */
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
-/* -------------------------------------------------------------PHOTO-GRID */
+/* -------------------------------------------------------------PLACE */
 @import url(../blocks/places/places.css);
+/*---------------------place --> article */
 @import url(../blocks/place/place.css);
+/*---------------------place --> article --> h2 */
 @import url(../blocks/place/__title/place__title.css);
+/*---------------------place --> article --> div.place__website */
 @import url(../blocks/place/__website/place__website.css);
+/*---------------------place --> article --> div.place__website --> p */
 @import url(../blocks/place/__url-heading/place__url-heading.css);
+/*---------------------place --> article --> div.place__website --> a */
 @import url(../blocks/place/__link/place__link.css);
+/*---------------------place --> article --> img */
 @import url(../blocks/place/__image/place__image.css);
+/*---------------------place --> article --> div.place__text */
 @import url(../blocks/place/__text/place__text.css);
+/*---------------------place --> article --> div.place__text --> p */
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
+/* -------------------------------------------------------------COVER */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__bg-img/cover__bg-img.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
