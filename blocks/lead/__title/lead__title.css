@@ -1,19 +1,21 @@
 .lead__title{
   box-sizing: border-box;
-  margin: 55px 0 0;
+  margin: 55px auto 0;
   font-weight: 800;
   font-size: 6rem;
   line-height: 6.25rem;
+  max-width: 720px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__title{
-    margin: 46px 0 0;
+    margin: 46px auto 0;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .lead__title{
+    max-width: 288px;
     font-size: 2.5rem;
     line-height: 2.75rem;
   }
