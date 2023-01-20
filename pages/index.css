@@ -76,6 +76,18 @@
 
 /* -------------------------------------------------------------COVER */
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__bg-img/cover__bg-img.css);
+/*---------------------cover --> h2 */
 @import url(../blocks/cover/__title/cover__title.css);
+/*---------------------cover --> p */
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
+/*---------------------cover --> img */
+@import url(../blocks/cover/__bg-img/cover__bg-img.css);
+
+/* -------------------------------------------------------------FOOTER */
+@import url(../blocks/footer/footer.css);
+/*---------------------footer --> nav --> ul */
+@import url(../blocks/footer/__links/footer__links.css);
+/*---------------------footer --> nav --> ul --> li --> a */
+@import url(../blocks/footer/__link/footer__link.css);
+/*---------------------footer --> p */
+@import url(../blocks/footer/__copyright/footer__copyright.css);

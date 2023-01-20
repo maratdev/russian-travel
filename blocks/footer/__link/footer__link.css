@@ -1,0 +1,14 @@
+.footer__link{
+  line-height: 1.125rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .footer__link{
+    font-size: 1.5rem;
+    line-height: 1.125rem;
+    margin-bottom: 32px;
+  }
+}
+
