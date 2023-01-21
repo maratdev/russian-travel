@@ -1,15 +1,17 @@
 .lead__title{
+  outline: 1px solid #fff;
   box-sizing: border-box;
-  margin: 55px auto 0;
+  margin: 0 auto;
   font-weight: 800;
   font-size: 6rem;
   line-height: 6.25rem;
   max-width: 720px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 426px) and (max-width: 767px) {
   .lead__title{
-    margin: 46px auto 0;
+    font-size: max(2.5rem, min(10vw, 6rem));
+    line-height: max(2.75rem, min(10vw, 6.25rem));
   }
 }
 
