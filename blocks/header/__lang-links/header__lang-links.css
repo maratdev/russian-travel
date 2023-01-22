@@ -1,5 +1,4 @@
 .header__lang-links{
-  outline: 1px solid red;
   display: flex;
   font-size: 1.5rem;
   column-gap: 18px;

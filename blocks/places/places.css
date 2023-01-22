@@ -1,18 +1,27 @@
 .places{
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
-  max-width: 1014px;
+  max-width: 984px;
   width: 100%;
-  margin: 0 auto;
+  margin: 92px auto 0;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .places{
-    margin-top: 96px;
-    padding: 0 30px;
+    max-width: calc(100% - (48px * 2));
   }
 }
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .places{
-    margin-top: 90px;
+    max-width: calc(100% - (24px * 2));
+    margin: 88px auto 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .places{
+    max-width: 100%;
+    margin: 64px auto 0;
   }
 }

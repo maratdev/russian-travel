@@ -1,6 +1,6 @@
 .intro__title{
   font-size: min(3.375rem, max(10vw, 2rem));
   line-height: min(3.625rem, max(10vw, 2.188rem));
-  font-weight: 800;
+  font-weight: 900;
   margin: 0;
 }

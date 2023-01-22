@@ -23,6 +23,9 @@
 **📄 Чеклисты:**
 * [Чеклист 3-го спринта](https://code.s3.yandex.net/web-developer/checklists-pdf/new-program/checklist-3.pdf)
 
+**📄 Проект на GitHub Pages:**
+* [gh-pages](https://github.com/maratdev/russian-travel/deployments/activity_log?environment=github-pages)
+
 * * *
 
 #### Установка и запуск приложения на локальной машине:
