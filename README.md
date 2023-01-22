@@ -17,13 +17,12 @@
 * * *
 
 **🧩 Брифы:**
-
 * [Figma 3-го спринта](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
 **📄 Чеклисты:**
 * [Чеклист 3-го спринта](https://code.s3.yandex.net/web-developer/checklists-pdf/new-program/checklist-3.pdf)
 
-**📄 Проект на GitHub Pages:**
+**🌐 Проект на GitHub Pages:**
 * [gh-pages](https://github.com/maratdev/russian-travel/deployments/activity_log?environment=github-pages)
 
 * * *
