@@ -50,8 +50,6 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 /*---------------------intro --> ul */
 @import url(../blocks/photo-grid/__list/photo-grid__list.css);
-/*---------------------intro --> ul  --> li*/
-@import url(../blocks/photo-grid/__items/photo-grid__items.css);
 /*---------------------intro --> ul  --> li --> img */
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
@@ -76,15 +74,12 @@
 
 /* -------------------------------------------------------------COVER */
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 /*---------------------cover --> a */
 @import url(../blocks/cover/__link/cover__link.css);
 /*---------------------cover --> h2 */
 @import url(../blocks/cover/__title/cover__title.css);
 /*---------------------cover --> p */
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-/*---------------------cover --> img */
-@import url(../blocks/cover/__bg-img/cover__bg-img.css);
 
 /* -------------------------------------------------------------FOOTER */
 @import url(../blocks/footer/footer.css);
