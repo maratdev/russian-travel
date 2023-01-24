@@ -34,7 +34,7 @@
 git clone https://github.com/yandex-praktikum/russian-travel
 ```
 
-👤 **Authors**
+👤 **Автор**
 
 **_Marat Zakar_**
 - Telegram: [@voredev](https://t.me/voredev)
