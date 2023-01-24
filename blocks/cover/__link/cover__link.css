@@ -5,6 +5,7 @@
   text-align: center;
   color: #fff;
   margin: 0 auto;
+  padding: 20px 0;  /* Отступы при увеличении контента внутри блока */
   width: 100%;
   text-decoration: none;
   z-index: 1;
